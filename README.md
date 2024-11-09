@@ -13,7 +13,6 @@ Marketing: A equipe de marketing quer ser informada para promover o produto nas 
 Compras: O departamento de compras precisa ser notificado para monitorar os níveis de estoque e planejar novos pedidos com fornecedores.
 
 Requisitos:
-
 a) Crie uma interface Observer com o método update, que recebe uma mensagem de atualização.
 b) Crie uma interface Estoque com métodos para registrar, remover e notificar observadores.
 c) Implemente a classe concreta EstoqueProduto, que representa o estoque de um produto específico e notifica todos os observadores quando o produto volta ao estoque.
